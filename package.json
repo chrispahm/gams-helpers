@@ -1,0 +1,21 @@
+{
+  "name": "gams-helpers",
+  "main": "./lib/gams-helpers",
+  "version": "0.0.0",
+  "description": "A selection of GAMS helper commands",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "gams-helpers:check"
+  },
+  "repository": "https://github.com/atom/gams-helpers",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "find-up": "*",
+    "glob": "*",
+    "python-shell": "^0.5.0",
+    "shelljs": "^0.8.1"
+  }
+}

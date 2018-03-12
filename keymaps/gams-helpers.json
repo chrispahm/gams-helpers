@@ -1,0 +1,6 @@
+{
+  "atom-text-editor[data-grammar='source gams']": {
+    "alt-shift-enter": "gams-helpers:check",
+		"shift-enter": "gams-helpers:run"
+  }
+}

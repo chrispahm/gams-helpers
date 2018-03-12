@@ -1,0 +1,8 @@
+'.source.gams':
+  'Check':
+    'prefix': 'c'
+    'description': 'Generic command to output set/parameter/variable to website'
+    'body': """
+			execute_unload "C:\\\\Users\\\\pahmeyer\\\\github\\\\gams-helpers\\\\lib\\\\GAMS-Helper.gdx", $1;
+			abort $1;
+		"""

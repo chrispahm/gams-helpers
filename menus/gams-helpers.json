@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run GAMS program",
+        "command": "gams-helpers:run"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gams-helpers",
+          "submenu": [
+            {
+              "label": "Run",
+              "command": "gams-helpers:run"
+            },
+						{
+							"label": "Check",
+							"command": "gams-helpers:check"
+						}
+          ]
+        }
+      ]
+    }
+  ]
+}
