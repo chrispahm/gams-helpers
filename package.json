@@ -5,7 +5,7 @@
   "description": "A selection of GAMS helper commands",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "gams-helpers:check"
+    "atom-workspace": ["gams-helpers:run", "gams-helpers:check"]
   },
   "repository": "https://github.com/atom/gams-helpers",
   "license": "MIT",
