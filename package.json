@@ -7,7 +7,7 @@
   "activationCommands": {
     "atom-workspace": ["gams-helpers:run", "gams-helpers:check"]
   },
-  "repository": "https://github.com/atom/gams-helpers",
+  "repository": "https://github.com/chrispahm/gams-helpers",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
