@@ -1,7 +1,7 @@
 {
   "name": "gams-helpers",
   "main": "./lib/gams-helpers",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A selection of GAMS helper commands",
   "keywords": [],
   "activationCommands": {
