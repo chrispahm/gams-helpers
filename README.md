@@ -9,6 +9,11 @@ If you would like to output a parameter/variable/set at a given position just pr
 Now fill in the desired parameter/varaible/set name you would like to output and hit ```alt-shift-enter``` or ```GAMS-Helpers: Check```. A web-browser window will be openend where you can inspect your parameter/set/variable.
 
 
-## Install
-Currently not pubslished to APM, therefore just clone the repo.
-Make sure to adjust the path to your scratch directory in the snippet file (gams-helpers.cson)
+## Installation
+You can install through the CLI by doing:
+
+```
+$ apm install gams-helpers
+```
+
+Or you can install from Settings view by searching for `gams-helpers`.
