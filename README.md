@@ -1,5 +1,6 @@
 # GAMS-Helpers
-Small package with two main features:
+GAMS-Helper functions, mainly consumed by the [linter-gams](https://github.com/chrispahm/linter-gams) package.
+
 ### Run
 Run the GAMS model by pressing ```shift-enter``` or clicking ```GAMS-Helpers: Run``` in the command palette.
 This will automatically open the listing file once finished.
