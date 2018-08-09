@@ -5,3 +5,4 @@ node_modules
 *.gdx
 GAMS-Helper.html
 snippets
+package-lock.json
