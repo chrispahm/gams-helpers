@@ -17,11 +17,7 @@
             {
               "label": "Run",
               "command": "gams-helpers:run"
-            },
-						{
-							"label": "Check",
-							"command": "gams-helpers:check"
-						}
+            }
           ]
         }
       ]

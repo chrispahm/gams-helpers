@@ -13,8 +13,6 @@
     "find-up": "*",
     "atom-package-deps": "^4.4.1",
     "glob": "*",
-    "lodash": "^4.17.5",
-    "python-shell": "^0.5.0",
     "shelljs": "^0.8.1"
   },
   "package-deps": [
