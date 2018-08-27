@@ -11,15 +11,23 @@
   },
   "dependencies": {
     "find-up": "*",
+    "atom-package-deps": "^4.4.1",
     "glob": "*",
-    "lodash": "^4.17.5",
-    "python-shell": "^0.5.0",
     "shelljs": "^0.8.1"
   },
+  "package-deps": [
+    "console-panel",
+    "busy"
+  ],
   "consumedServices": {
     "busy-signal": {
       "versions": {
         "1.0.0": "consumeSignal"
+      }
+    },
+    "console-panel": {
+      "versions": {
+        "^1.0.0": "consumeConsolePanel"
       }
     }
   }
