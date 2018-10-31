@@ -4,6 +4,10 @@
       {
         "label": "Run GAMS program",
         "command": "gams-helpers:run"
+      },
+      {
+        "label": "Stop GAMS program",
+        "command": "gams-helpers:stop"
       }
     ]
   },
@@ -17,6 +21,10 @@
             {
               "label": "Run",
               "command": "gams-helpers:run"
+            },
+            {
+              "label": "Stop",
+              "command": "gams-helpers:stop"
             }
           ]
         }
