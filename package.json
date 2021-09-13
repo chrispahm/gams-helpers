@@ -1,7 +1,7 @@
 {
   "name": "gams-helpers",
   "main": "./lib/gams-helpers",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "A selection of GAMS helper commands",
   "keywords": [],
   "repository": "https://github.com/chrispahm/gams-helpers",
@@ -15,7 +15,8 @@
     "glob": "^7.1.7",
     "shelljs": "^0.8.1"
   },
-  "package-deps": [{
+  "package-deps": [
+    {
       "name": "console-panel"
     },
     {
