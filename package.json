@@ -1,7 +1,7 @@
 {
   "name": "gams-helpers",
   "main": "./lib/gams-helpers",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A selection of GAMS helper commands",
   "keywords": [],
   "repository": "https://github.com/chrispahm/gams-helpers",
@@ -10,14 +10,17 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "find-up": "*",
-    "atom-package-deps": "^4.4.1",
-    "glob": "*",
+    "atom-package-deps": "^7.1.0",
+    "find-up": "^5.0.0",
+    "glob": "^7.1.7",
     "shelljs": "^0.8.1"
   },
-  "package-deps": [
-    "console-panel",
-    "busy"
+  "package-deps": [{
+      "name": "console-panel"
+    },
+    {
+      "name": "busy"
+    }
   ],
   "consumedServices": {
     "busy-signal": {
